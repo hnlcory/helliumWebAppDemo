@@ -5,9 +5,10 @@
   ],
 
   "defaultData": [
-    { "name": "long-butter-yak", "owner": "john@foo.com" },
-    { "name": "low-concrete-yak", "owner": "john@foo.com" },
-    { "name": "obedient-orchid-walrus", "owner": "admin@foo.com" },
-    { "name": "acrobatic-amber-blackbird", "owner": "admin@foo.com" }
+    { "name": "long-butter-yak", "owner": "john@foo.com", "data": { "online":"online" }},
+
+    { "name": "obedient-orchid-walrus", "owner": "admin@foo.com", "data": { "online":"online" }},
+
+    { "name": "acrobatic-amber-blackbird", "owner": "admin@foo.com", "data": { "online":"online" }}
   ]
 }

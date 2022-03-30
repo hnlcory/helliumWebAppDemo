@@ -15,6 +15,7 @@ class StuffsCollection {
     this.schema = new SimpleSchema({
       name: String,
       owner: String,
+      data: Object, 'data.online': String,
     }, { tracker: Tracker });
     // Attach the schema to the collection, so all attempts to insert a document are checked against schema.
     this.collection.attachSchema(this.schema);

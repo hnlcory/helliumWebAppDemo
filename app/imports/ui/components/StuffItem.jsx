@@ -9,10 +9,11 @@ class StuffItem extends React.Component {
     return (
       <Table.Row>
         <Table.Cell>{this.props.stuff.name}</Table.Cell>
-        <Table.Cell>{this.props.stuff.data.online}</Table.Cell>
+        <Table.Cell>{this.props.stuff.data.status.online}</Table.Cell>
         <Table.Cell>{this.props.stuff.data.last_poc_challenge}</Table.Cell>
         <Table.Cell>{this.props.stuff.data.owner}</Table.Cell>
         <Table.Cell>{this.props.stuff.data.reward_scale}</Table.Cell>
+        <Table.Cell>{`${this.props.stuff.data.geocode.short_city}, ${this.props.stuff.data.geocode.short_state}`}</Table.Cell>
       </Table.Row>
     );
   }

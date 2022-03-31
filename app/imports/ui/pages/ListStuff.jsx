@@ -27,6 +27,7 @@ class ListStuff extends React.Component {
               <Table.HeaderCell>Last Challenge</Table.HeaderCell>
               <Table.HeaderCell>Wallet</Table.HeaderCell>
               <Table.HeaderCell>Reward Scale</Table.HeaderCell>
+              <Table.HeaderCell>Location</Table.HeaderCell>
             </Table.Row>
           </Table.Header>
           <Table.Body>

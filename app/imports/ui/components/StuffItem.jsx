@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class StuffItem extends React.Component {
@@ -10,10 +10,9 @@ class StuffItem extends React.Component {
       <Table.Row>
         <Table.Cell>{this.props.stuff.name}</Table.Cell>
         <Table.Cell>{this.props.stuff.data.online}</Table.Cell>
-        <Table.Cell>{this.props.stuff.name}</Table.Cell>
-        <Table.Cell>
-          <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
-        </Table.Cell>
+        <Table.Cell>{this.props.stuff.data.last_poc_challenge}</Table.Cell>
+        <Table.Cell>{this.props.stuff.data.owner}</Table.Cell>
+        <Table.Cell>{this.props.stuff.data.reward_scale}</Table.Cell>
       </Table.Row>
     );
   }

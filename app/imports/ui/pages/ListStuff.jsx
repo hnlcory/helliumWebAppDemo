@@ -24,8 +24,9 @@ class ListStuff extends React.Component {
             <Table.Row>
               <Table.HeaderCell>Name</Table.HeaderCell>
               <Table.HeaderCell>Status</Table.HeaderCell>
-              <Table.HeaderCell>Condition</Table.HeaderCell>
-              <Table.HeaderCell>Edit</Table.HeaderCell>
+              <Table.HeaderCell>Last Challenge</Table.HeaderCell>
+              <Table.HeaderCell>Wallet</Table.HeaderCell>
+              <Table.HeaderCell>Reward Scale</Table.HeaderCell>
             </Table.Row>
           </Table.Header>
           <Table.Body>

@@ -5,18 +5,19 @@ import { Grid, Image } from 'semantic-ui-react';
 class Landing extends React.Component {
   render() {
     return (
-      <Grid id='landing-page' verticalAlign='middle' textAlign='center' container>
-
-        <Grid.Column width={4}>
-          <Image size='small' circular src="/images/meteor-logo.png"/>
-        </Grid.Column>
-
-        <Grid.Column width={8}>
-          <h1>Welcome to this template</h1>
-          <p>Now get to work and modify this app!</p>
-        </Grid.Column>
-
+      <Grid id='landing-page' verticalAlign='middle' textAlign='center' divided='vertically'>
+        <Grid.Row columns={2}>
+          <Grid.Column>
+            <Image src='/images/symbol.jpeg'></Image>
+            <h1>hntHI</h1>
+            <p>Data Visualization for Helium HNT Miners</p>
+          </Grid.Column>
+          <Grid.Column>
+            <Image size='huge' src='/images/longfilarge.png' />
+          </Grid.Column>
+        </Grid.Row>
       </Grid>
+
     );
   }
 }

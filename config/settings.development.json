@@ -31,6 +31,13 @@
       "owner": "13KavAsoXnzfvUMAuPUegqeRS3yhn4RRZM9ZZ18e6ECs2QAu7Vm",
       "payer": "13ENbEQPAvytjLnqavnbSAzurhGoCSNkGECMx7eHHDAfEaDirdY",
       "reward_scale": 0.83056640625,
+      "status": {
+      "height": 1288309,
+      "listen_addrs": [
+        "/ip4/72.234.226.163/tcp/44158"
+      ],
+      "online": "online",
+      "timestamp": "2022-03-29T20:22:35.277000Z" },
       "timestamp_added": "2022-03-03T02:53:24.000000Z"}},
 
     { "name": "obedient-orchid-walrus", "owner": "admin@foo.com", "data": { "block": 1288907,
@@ -58,6 +65,11 @@
       "owner": "13KavAsoXnzfvUMAuPUegqeRS3yhn4RRZM9ZZ18e6ECs2QAu7Vm",
       "payer": "13ENbEQPAvytjLnqavnbSAzurhGoCSNkGECMx7eHHDAfEaDirdY",
       "reward_scale": 0.83056640625,
+      "status": {
+        "height": 1288309,
+        "listen_addrs": ["/ip4/72.234.226.163/tcp/44158"],
+        "online": "online",
+        "timestamp": "2022-03-29T20:22:35.277000Z" },
       "timestamp_added": "2022-03-03T02:53:24.000000Z" }},
 
     { "name": "acrobatic-amber-blackbird", "owner": "admin@foo.com", "data": { "block": 1288907,
@@ -85,6 +97,11 @@
       "owner": "13KavAsoXnzfvUMAuPUegqeRS3yhn4RRZM9ZZ18e6ECs2QAu7Vm",
       "payer": "13ENbEQPAvytjLnqavnbSAzurhGoCSNkGECMx7eHHDAfEaDirdY",
       "reward_scale": 0.83056640625,
+      "status": {
+        "height": 1288309,
+        "listen_addrs": ["/ip4/72.234.226.163/tcp/44158"],
+        "online": "online",
+        "timestamp": "2022-03-29T20:22:35.277000Z" },
       "timestamp_added": "2022-03-03T02:53:24.000000Z" }}
   ]
 }

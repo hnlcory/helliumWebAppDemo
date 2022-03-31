@@ -15,7 +15,8 @@ class StuffsCollection {
     this.schema = new SimpleSchema({
       name: String,
       owner: String,
-      data: Object, 'data.online': String,
+      // eslint-disable-next-line max-len
+      data: Object, 'data.block': SimpleSchema.Integer, 'data.block_added': SimpleSchema.Integer, 'data.elevation': SimpleSchema.Integer, 'data.gain': SimpleSchema.Integer, 'data.last_change_block': SimpleSchema.Integer, 'data.last_poc_challenge': SimpleSchema.Integer, 'data.lat': Number, 'data.lng': Number, 'data.location': String, 'data.location_hex': String, 'data.mode': String, 'data.name': String, 'data.nonce': SimpleSchema.Integer, 'data.owner': String, 'data.payer': String, 'data.reward_scale': Number, 'data.timestamp_added': String,
     }, { tracker: Tracker });
     // Attach the schema to the collection, so all attempts to insert a document are checked against schema.
     this.collection.attachSchema(this.schema);

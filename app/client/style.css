@@ -1,3 +1,10 @@
-.landing-page-color {
-  background: #bcbdbcd;
+#font-type-main {
+  font-family: 'Inter', sans-serif;
+  font-size: 10em;
 }
+
+#font-type-general{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+}
+
